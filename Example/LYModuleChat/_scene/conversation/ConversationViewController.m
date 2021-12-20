@@ -28,7 +28,7 @@
 #import "PreHeader.h"
 
 
-@interface ConversationViewController () <UITableViewDelegate, UITableViewDataSource> {
+@interface ConversationViewController () /*<UITableViewDelegate, UITableViewDataSource>*/ {
 	__weak UITableView *tbConv;
 }
 @end
@@ -46,6 +46,7 @@
 		self.navigationItem.title = @"Conversations";
 	}
 	
+	/*
 	{
 		UITableView *view = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
 		view.translatesAutoresizingMaskIntoConstraints = NO;
@@ -61,10 +62,16 @@
 		
 		view.delegate = self;
 	}
+	*/
 }
 
 // MARK: - METHOD
 // MARK: PRIVATE METHOD
+// MARK: NETWORKING
+
+- (void)requestConversations {
+}
+
 // MARK: PROPERTY
 // MARK: BLOCK
 // MARK: - DELEGATE
@@ -76,14 +83,14 @@
 
 // MARK: UITableViewDataSource
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-	return 0;
-}
+//- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+//	return 0;
+//}
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)idp {
-	
-	return [tableView dequeueReusableCellWithIdentifier:FACBaseTableCellIdentifier forIndexPath:idp];
-}
+//- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)idp {
+//	
+//	return [tableView dequeueReusableCellWithIdentifier:FACBaseTableCellIdentifier forIndexPath:idp];
+//}
 
 // MARK: - NOTIFICATION
 // MARK:

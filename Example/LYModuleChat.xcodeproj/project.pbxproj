@@ -220,6 +220,11 @@
 				CLASSPREFIX = LY;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Luo Yu";
+				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = K9CJPHW4CP;
+					};
+				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "LYModuleChat" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -266,15 +271,7 @@
 				"${BUILT_PRODUCTS_DIR}/LYCategory/LYCategory.framework",
 				"${BUILT_PRODUCTS_DIR}/LYFactAppCommon/LYFactAppCommon.framework",
 				"${BUILT_PRODUCTS_DIR}/LYModuleChat/LYModuleChat.framework",
-				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/TUIChat/TUIChat.framework",
-				"${BUILT_PRODUCTS_DIR}/TUIContact/TUIContact.framework",
-				"${BUILT_PRODUCTS_DIR}/TUIConversation/TUIConversation.framework",
-				"${BUILT_PRODUCTS_DIR}/TUICore/TUICore.framework",
-				"${BUILT_PRODUCTS_DIR}/TUIGroup/TUIGroup.framework",
-				"${BUILT_PRODUCTS_DIR}/TUISearch/TUISearch.framework",
-				"${PODS_ROOT}/TXIMSDK_Plus_iOS/ImSDK_Plus.framework",
+				"${PODS_ROOT}/TXIMSDK_Plus_iOS_Bitcode/ImSDK_Plus.framework",
 				"${BUILT_PRODUCTS_DIR}/UICKeyChainStore/UICKeyChainStore.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -284,14 +281,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LYCategory.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LYFactAppCommon.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LYModuleChat.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TUIChat.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TUIContact.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TUIConversation.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TUICore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TUIGroup.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TUISearch.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImSDK_Plus.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICKeyChainStore.framework",
 			);
@@ -437,11 +426,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K9CJPHW4CP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LYModuleChat/LYModuleChat-Prefix.pch";
 				INFOPLIST_FILE = "LYModuleChat/LYModuleChat-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = space.luoyu.demo.module.chat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -454,11 +444,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K9CJPHW4CP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LYModuleChat/LYModuleChat-Prefix.pch";
 				INFOPLIST_FILE = "LYModuleChat/LYModuleChat-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = space.luoyu.demo.module.chat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;

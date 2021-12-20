@@ -46,7 +46,8 @@
 	
 	{
 		UINavigationController *convnav = [ConversationViewController nav];
-		convnav.tabBarItem.title = @"Conversation";
+//		convnav.tabBarItem.title = @"Conversation";
+		convnav.tabBarItem.image = [UIImage imageNamed:@"tab-ico-chat-nor"];
 		
 		tabs.viewControllers = @[convnav,];
 	}

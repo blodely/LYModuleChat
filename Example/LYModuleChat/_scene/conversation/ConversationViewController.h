@@ -24,9 +24,9 @@
 //	THE SOFTWARE.
 //
 
-#import <LYFactAppCommon/LYFactAppCommon.h>
+#import <LYModuleChat/LYModuleChat.h>
 
 
-@interface ConversationViewController : FACBaseShowNavbarVC
+@interface ConversationViewController : FACConversationViewController
 
 @end

@@ -32,8 +32,14 @@ LYModuleChat is a chat feature Module.
   # s.frameworks = 'UIKit', 'MapKit'
   s.frameworks = 'UIKit'
   
-  # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'LYCategory', '~> 1.13'
   s.dependency 'LYFactAppCommon'
+	
+	s.dependency 'TUIChat'
+	s.dependency 'TUIConversation'
+	s.dependency 'TUIContact'
+	s.dependency 'TUIGroup'
+	s.dependency 'TUISearch'
+#	s.dependency 'TUICalling'
   
 end

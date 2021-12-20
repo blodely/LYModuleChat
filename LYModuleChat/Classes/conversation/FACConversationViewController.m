@@ -27,6 +27,7 @@
 #import "FACConversationViewController.h"
 #import <LYModuleChat/LYModuleChat.h>
 #import <IMSDK_Plus/IMSDK_Plus.h>
+#import "FACConversationCell.h"
 
 
 @interface FACConversationViewController () <UITableViewDataSource> {
@@ -66,6 +67,7 @@
 		tbConv = view;
 		
 		[tbConv registerClass:[FACBaseTableCell class] forCellReuseIdentifier:FACBaseTableCellIdentifier];
+		[tbConv registerClass:[FACConversationCell class] forCellReuseIdentifier:FACConversationCellIdentifier];
 		tbConv.dataSource = self;
 		
 		[view.leftAnchor constraintEqualToAnchor:self.view.leftAnchor].active = YES;
@@ -121,7 +123,10 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)idp {
 	
-	
+	{
+		FACConversationCell *cell = [tableView dequeueReusableCellWithIdentifier:FACConversationCellIdentifier forIndexPath:idp];
+		return cell;
+	}
 	
 	return [tableView dequeueReusableCellWithIdentifier:FACBaseTableCellIdentifier forIndexPath:idp];
 }

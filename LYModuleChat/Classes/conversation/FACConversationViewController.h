@@ -1,8 +1,8 @@
 //
-//	LYModuleChat.h
+//	FACConversationViewController.h
 //	LYModuleChat
 //
-//	Created by Luo Yu on 2021-12-17.
+//	Created by Luo Yu on 2021-12-20.
 //	Copyright (c) 2021 Luo Yu <indie.luo@gmail.com>
 //
 //	Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -24,11 +24,15 @@
 //	THE SOFTWARE.
 //
 
-#import <Foundation/Foundation.h>
-#import <LYCategory/LYCategory.h>
+#import <LYFactAppCommon/LYFactAppCommon.h>
+#import <IMSDK_Plus/V2TIMManager+Conversation.h>
 
 
-@interface LYModuleChat : NSObject
+@interface FACConversationViewController : FACBaseShowNavbarVC {
+	
+	__strong NSMutableArray<V2TIMConversation *> *dsConvs;
+	
+	__weak UITableView *tbConv;
+}
+
 @end
-
-#import <LYModuleChat/FACConversationViewController.h>

@@ -35,11 +35,13 @@ LYModuleChat is a chat feature Module.
   s.dependency 'LYCategory', '~> 1.13'
   s.dependency 'LYFactAppCommon'
 	
-	s.dependency 'TUIChat'
-	s.dependency 'TUIConversation'
-	s.dependency 'TUIContact'
-	s.dependency 'TUIGroup'
-	s.dependency 'TUISearch'
-#	s.dependency 'TUICalling'
+  s.dependency 'TXIMSDK_Plus_iOS_Bitcode' # 增强版IM(无UI)
+  
+#  s.dependency 'TUIChat'
+#  s.dependency 'TUIConversation'
+#  s.dependency 'TUIContact'
+#  s.dependency 'TUIGroup'
+#  s.dependency 'TUISearch'
+#  s.dependency 'TUICalling'
   
 end

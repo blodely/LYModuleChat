@@ -1,8 +1,8 @@
 //
-//	LYModuleChat.h
+//  FACChatViewController.m
 //	LYModuleChat
 //
-//	Created by Luo Yu on 2021-12-17.
+//	Created by Luo Yu on 2021-12-20.
 //	Copyright (c) 2021 Luo Yu <indie.luo@gmail.com>
 //
 //	Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -24,13 +24,26 @@
 //	THE SOFTWARE.
 //
 
-#import <Foundation/Foundation.h>
-#import <LYCategory/LYCategory.h>
-#import <LYFactAppCommon/LYFactAppCommon.h>
+#import "FACChatViewController.h"
+#import <LYModuleChat/LYModuleChat.h>
 
 
-@interface LYModuleChat : NSObject
+@interface FACChatViewController () {}
 @end
 
-#import <LYModuleChat/FACConversationViewController.h>
-#import <LYModuleChat/FACChatViewController.h>
+@implementation FACChatViewController
+
+// MARK: - ACTION
+// MARK: - INIT
+// MARK: - VIEW LIFE CYCLE
+// MARK: - METHOD
+// MARK: PRIVATE METHOD
+// MARK: NETWORKING
+// MARK: PROPERTY
+// MARK: BLOCK
+// MARK: - DELEGATE
+// MARK:
+// MARK: - NOTIFICATION
+// MARK:
+
+@end

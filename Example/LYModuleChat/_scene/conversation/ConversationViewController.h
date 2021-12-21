@@ -27,6 +27,6 @@
 #import <LYModuleChat/LYModuleChat.h>
 
 
-@interface ConversationViewController : FACConversationViewController
+@interface ConversationViewController : LYMConversationViewController
 
 @end

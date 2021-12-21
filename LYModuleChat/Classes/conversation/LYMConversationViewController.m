@@ -1,5 +1,5 @@
 //
-//	FACConversationViewController.m
+//	LYMConversationViewController.m
 //	LYModuleChat
 //
 //	Created by Luo Yu on 2021-12-20.
@@ -24,13 +24,13 @@
 //	THE SOFTWARE.
 //
 
-#import "FACConversationViewController.h"
+#import "LYMConversationViewController.h"
 #import <LYModuleChat/LYModuleChat.h>
 #import <IMSDK_Plus/IMSDK_Plus.h>
-#import "FACConversationCell.h"
+#import "LYMConversationCell.h"
 
 
-@interface FACConversationViewController () <UITableViewDataSource> {
+@interface LYMConversationViewController () <UITableViewDataSource> {
 	
 	uint64_t nextSeq;
 	uint64_t pageCount;
@@ -38,7 +38,7 @@
 }
 @end
 
-@implementation FACConversationViewController
+@implementation LYMConversationViewController
 
 // MARK: - ACTION
 // MARK: - INIT
@@ -67,7 +67,7 @@
 		tbConv = view;
 		
 		[tbConv registerClass:[FACBaseTableCell class] forCellReuseIdentifier:FACBaseTableCellIdentifier];
-		[tbConv registerClass:[FACConversationCell class] forCellReuseIdentifier:FACConversationCellIdentifier];
+		[tbConv registerClass:[LYMConversationCell class] forCellReuseIdentifier:LYMConversationCellIdentifier];
 		tbConv.dataSource = self;
 		
 		[view.leftAnchor constraintEqualToAnchor:self.view.leftAnchor].active = YES;
@@ -124,7 +124,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)idp {
 	
 	{
-		FACConversationCell *cell = [tableView dequeueReusableCellWithIdentifier:FACConversationCellIdentifier forIndexPath:idp];
+		LYMConversationCell *cell = [tableView dequeueReusableCellWithIdentifier:LYMConversationCellIdentifier forIndexPath:idp];
 		return cell;
 	}
 	

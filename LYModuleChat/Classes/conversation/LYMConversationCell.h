@@ -1,5 +1,5 @@
 //
-//	FACConversationCell.h
+//	LYMConversationCell.h
 //	LYModuleChat
 //
 //	Created by Luo Yu on 2021-12-20.
@@ -27,9 +27,9 @@
 #import <LYFactAppCommon/LYFactAppCommon.h>
 
 
-FOUNDATION_EXPORT NSString *const FACConversationCellIdentifier;
+FOUNDATION_EXPORT NSString *const LYMConversationCellIdentifier;
 
-@interface FACConversationCell : FACBaseTableCell
+@interface LYMConversationCell : FACBaseTableCell
 
 @property (nonatomic, weak) UIImageView *ivAvatar;
 @property (nonatomic, weak) UILabel *lblName;

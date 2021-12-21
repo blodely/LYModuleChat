@@ -1,5 +1,5 @@
 //
-//	FACConversationCell.m
+//	LYMConversationCell.m
 //	LYModuleChat
 //
 //	Created by Luo Yu on 2021-12-20.
@@ -24,12 +24,12 @@
 //	THE SOFTWARE.
 //
 
-#import "FACConversationCell.h"
+#import "LYMConversationCell.h"
 
 
-NSString *const FACConversationCellIdentifier = @"FACConversationCellIdentifier";
+NSString *const LYMConversationCellIdentifier = @"LYMConversationCellIdentifier";
 
-@implementation FACConversationCell
+@implementation LYMConversationCell
 
 - (void)initial {
 	[super initial];

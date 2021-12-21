@@ -1,5 +1,5 @@
 //
-//	FACConversationViewController.h
+//  LYMChatViewController.m
 //	LYModuleChat
 //
 //	Created by Luo Yu on 2021-12-20.
@@ -24,15 +24,26 @@
 //	THE SOFTWARE.
 //
 
-#import <LYFactAppCommon/LYFactAppCommon.h>
-#import <IMSDK_Plus/V2TIMManager+Conversation.h>
+#import "LYMChatViewController.h"
+#import <LYModuleChat/LYModuleChat.h>
 
 
-@interface FACConversationViewController : FACBaseShowNavbarVC {
-	
-	__strong NSMutableArray<V2TIMConversation *> *dsConvs;
-	
-	__weak UITableView *tbConv;
-}
+@interface LYMChatViewController () {}
+@end
+
+@implementation LYMChatViewController
+
+// MARK: - ACTION
+// MARK: - INIT
+// MARK: - VIEW LIFE CYCLE
+// MARK: - METHOD
+// MARK: PRIVATE METHOD
+// MARK: NETWORKING
+// MARK: PROPERTY
+// MARK: BLOCK
+// MARK: - DELEGATE
+// MARK:
+// MARK: - NOTIFICATION
+// MARK:
 
 @end

@@ -1,5 +1,5 @@
 //
-//  FACChatViewController.h
+//  LYMChatViewController.h
 //	LYModuleChat
 //
 //	Created by Luo Yu on 2021-12-20.
@@ -27,6 +27,6 @@
 #import <LYFactAppCommon/LYFactAppCommon.h>
 
 
-@interface FACChatViewController : FACBaseShowNavbarVC
+@interface LYMChatViewController : FACBaseShowNavbarVC
 
 @end

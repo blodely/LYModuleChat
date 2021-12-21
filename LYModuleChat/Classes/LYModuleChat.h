@@ -32,5 +32,5 @@
 @interface LYModuleChat : NSObject
 @end
 
-#import <LYModuleChat/FACConversationViewController.h>
-#import <LYModuleChat/FACChatViewController.h>
+#import <LYModuleChat/LYMConversationViewController.h>
+#import <LYModuleChat/LYMChatViewController.h>

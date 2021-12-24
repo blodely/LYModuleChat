@@ -16,52 +16,49 @@ PODS:
     - AFNetworking/NSURLSession
   - FCUUID (1.3.1):
     - UICKeyChainStore (~> 2.1.0)
-  - LYCategory (1.13.2)
-  - LYFactAppCommon (1.0.0):
+  - JLRoutes (2.1)
+  - LYCategory (1.13.5)
+  - LYFactAppCommon (1.0.1):
     - AFNetworking (~> 4.0.1)
     - FCUUID (~> 1.3.1)
-    - LYCategory (~> 1.13)
+    - JLRoutes
+    - LYCategory (~> 1.13.5)
   - LYModuleChat (0.1.0):
     - LYCategory (~> 1.13)
     - LYFactAppCommon
     - TXIMSDK_Plus_iOS_Bitcode
-  - TXIMSDK_Plus_iOS_Bitcode (5.8.1696)
+  - TXIMSDK_Plus_iOS_Bitcode (5.9.1872)
   - UICKeyChainStore (2.1.2)
 
 DEPENDENCIES:
   - LYCategory
-  - LYFactAppCommon (from `https://github.com/blodely/LYFactAppCommon.git`)
+  - LYFactAppCommon
   - LYModuleChat (from `../`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - FCUUID
+    - JLRoutes
+    - LYCategory
+    - LYFactAppCommon
     - TXIMSDK_Plus_iOS_Bitcode
     - UICKeyChainStore
-  trunk:
-    - LYCategory
 
 EXTERNAL SOURCES:
-  LYFactAppCommon:
-    :git: https://github.com/blodely/LYFactAppCommon.git
   LYModuleChat:
     :path: "../"
-
-CHECKOUT OPTIONS:
-  LYFactAppCommon:
-    :commit: dea0685fe84dd9f9df4cceb08cdc7e99b75c9212
-    :git: https://github.com/blodely/LYFactAppCommon.git
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   FCUUID: bb054fc90cd7cd99320f9f6ff8e130fe607fba05
-  LYCategory: 7e3f2f7fa636f8376aa3f95d68a42eaaf6e9b4ea
-  LYFactAppCommon: 182cf8a551905b2f6c87b624a374d86d803a901c
+  JLRoutes: d755245322b94227662ea3e43492fdca94e05c5b
+  LYCategory: 51c34a43af4e37ac43138712f77cc6eda314acb2
+  LYFactAppCommon: 4d82a2c817e3b3c427917f12401c06a052254fc6
   LYModuleChat: ac521bb51c08576fd9d480336ac74eec8d5deafb
-  TXIMSDK_Plus_iOS_Bitcode: b238d8e3019ca881997f839a74a489b80ac9d9dc
+  TXIMSDK_Plus_iOS_Bitcode: 5949ecf24cd4f4f80e5214f2cbfe957bfc1fe21b
   UICKeyChainStore: 85db518bb1d294366d15ec9b92a416c4e670518f
 
-PODFILE CHECKSUM: 1bb0b0fceb9f817d1df06c588e67d2b4f189e8ac
+PODFILE CHECKSUM: df655d7a9bde45ced0d27b02a4af248dc10cd39c
 
 COCOAPODS: 1.11.2

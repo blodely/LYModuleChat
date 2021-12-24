@@ -12,7 +12,7 @@ platform :ios, '11.0'
 
 def lypods
 	pod 'LYCategory'
-	pod 'LYFactAppCommon', :git => 'https://github.com/blodely/LYFactAppCommon.git'
+	pod 'LYFactAppCommon'
 end
 
 def bdpods
